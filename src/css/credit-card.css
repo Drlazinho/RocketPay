@@ -1,7 +1,7 @@
 /* CC */
 .cc {
   background: no-repeat center/cover;
-  background-image: url("/cc-bg.svg");
+  background-image: url("/cc-bg-option.svg");
   width: 36rem;
   height: 23rem;
   padding: 2rem;
@@ -16,6 +16,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.cc-icon-card{
+  max-width: 50px;
+}
+
 
 .cc-info {
   display: grid;
@@ -37,6 +42,10 @@
 .cc-security {
   display: grid;
   gap: 0.4rem;
+}
+
+.cc-extra img {
+  z-index: 1;
 }
 
 .cc .label {
